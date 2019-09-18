@@ -28,6 +28,7 @@
         android:layout_height="wrap_content"
         android:text="Bienvenido"
         tools:layout_editor_absoluteX="185dp"
-        tools:layout_editor_absoluteY="78dp" />
+        tools:layout_editor_absoluteY="78dp"
+        tools:text="@string/saludo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

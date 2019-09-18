@@ -32,6 +32,7 @@
         android:layout_height="wrap_content"
         android:text="Bienvenido"
         tools:layout_editor_absoluteX="314dp"
-        tools:layout_editor_absoluteY="47dp" />
+        tools:layout_editor_absoluteY="47dp"
+        tools:text="Bienvenido" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
