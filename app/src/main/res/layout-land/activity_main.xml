@@ -11,23 +11,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/fondo"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="30dp" />
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="25dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="63dp"
+        android:layout_marginBottom="24dp"
         android:text="Button"
-        tools:layout_editor_absoluteX="167dp"
-        tools:layout_editor_absoluteY="521dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="305dp" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Bienvenido"
-        tools:layout_editor_absoluteX="185dp"
-        tools:layout_editor_absoluteY="78dp" />
+        tools:layout_editor_absoluteX="314dp"
+        tools:layout_editor_absoluteY="47dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
